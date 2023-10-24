@@ -7,8 +7,8 @@ import lombok.Data;
 import java.math.BigDecimal;
 
 /**
- * @author helen
- * @since 2020/6/6
+ * @author zayn
+ * @since 2023/10/10
  */
 @ApiModel("课程基本信息")
 @Data

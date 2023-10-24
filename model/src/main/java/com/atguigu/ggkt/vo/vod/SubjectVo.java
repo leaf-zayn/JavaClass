@@ -8,8 +8,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author helen
- * @since 2020/6/5
+ * @author zayn
+ * @since 2023/10/10
  */
 @ApiModel("课程分类列表")
 @Data

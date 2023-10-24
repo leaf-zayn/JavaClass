@@ -14,5 +14,5 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
  */
 public interface CourseMapper extends BaseMapper<Course> {
 
-    CoursePublishVo selectCoursePublishVoById(Long id);
+    CoursePublishVo selectCoursePublishVoById(String id);
 }

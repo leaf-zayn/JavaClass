@@ -35,7 +35,7 @@ public class CourseController {
     @ApiOperation("添加课程基本信息")
     @PostMapping("save")
     public Result save(@RequestBody CourseFormVo courseFormVo) {
-        Long courseId = courseService.saveCoueseInfo(courseFormVo);
+        Long courseId = courseService.saveCourseInfo(courseFormVo);
         return Result.ok(courseId);
     }
 
@@ -67,7 +67,7 @@ public class CourseController {
     //根据课程id查询已发布的课程信息
     @ApiOperation("id查询课程发布信息")
     @GetMapping("getCoursePublishVo/{id}")
-    public Result getCoursePublishVo(@PathVariable Long id) {
+    public Result getCoursePublishVo(@PathVariable String id) {
         CoursePublishVo coursePublishVo = courseService.getCoursePublishVo(id);
         return Result.ok(coursePublishVo);
     }
@@ -75,10 +75,18 @@ public class CourseController {
     //课程最终发布
     @ApiOperation("课程最终发布")
     @PutMapping("publishCourseById/{id}")
-    public Result publishCourse(@PathVariable Long id) {
+    public Result publishCourse(@PathVariable String id) {
         courseService.publishCourse(id);
         return Result.ok(null);
     }
+
+    //删除课程
+    @DeleteMapping("remove/{id}")
+    public Result remove(@PathVariable Long id) {
+        courseService.removeCourseId(id);
+        return Result.ok(null);
+    }
 }
+
 
 
