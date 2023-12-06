@@ -19,7 +19,7 @@ import java.util.Objects;
  */
 @RestController
 @RequestMapping("/admin/vod/videoVisitor")
-@CrossOrigin
+//@CrossOrigin
 public class VideoVisitorController {
     @Autowired
     private VideoVisitorService videoVisitorService;

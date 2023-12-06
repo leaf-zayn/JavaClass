@@ -19,7 +19,7 @@ import org.springframework.web.bind.annotation.*;
  */
 @RestController
 @RequestMapping("/admin/vod/video")
-@CrossOrigin
+//@CrossOrigin
 public class VideoController {
     @Autowired
     private VideoService videoService;
@@ -46,9 +46,9 @@ public class VideoController {
     }
 
     @ApiOperation("删除")
-    @DeleteMapping("delete/{id}")
+    @DeleteMapping("remove/{id}")
     public Result remove(@PathVariable Long id) {
-        videoService.removeById(id);
+        videoService.removeVideoById(id);
         return Result.ok(null);
     }
 
