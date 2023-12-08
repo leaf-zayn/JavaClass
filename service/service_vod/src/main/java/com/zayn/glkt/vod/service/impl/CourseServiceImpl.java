@@ -1,12 +1,12 @@
 package com.zayn.glkt.vod.service.impl;
 
-import com.atguigu.ggkt.model.vod.Course;
-import com.atguigu.ggkt.model.vod.CourseDescription;
-import com.atguigu.ggkt.model.vod.Subject;
-import com.atguigu.ggkt.model.vod.Teacher;
-import com.atguigu.ggkt.vo.vod.CourseFormVo;
-import com.atguigu.ggkt.vo.vod.CoursePublishVo;
-import com.atguigu.ggkt.vo.vod.CourseQueryVo;
+import com.zayn.ggkt.model.vod.Course;
+import com.zayn.ggkt.model.vod.CourseDescription;
+import com.zayn.ggkt.model.vod.Subject;
+import com.zayn.ggkt.model.vod.Teacher;
+import com.zayn.ggkt.vo.vod.CourseFormVo;
+import com.zayn.ggkt.vo.vod.CoursePublishVo;
+import com.zayn.ggkt.vo.vod.CourseQueryVo;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.zayn.glkt.vod.mapper.CourseMapper;

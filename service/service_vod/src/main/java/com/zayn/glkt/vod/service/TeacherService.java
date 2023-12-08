@@ -1,6 +1,6 @@
 package com.zayn.glkt.vod.service;
 
-import com.atguigu.ggkt.model.vod.Teacher;
+import com.zayn.ggkt.model.vod.Teacher;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 /**

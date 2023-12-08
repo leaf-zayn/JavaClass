@@ -2,7 +2,7 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.zayn.glkt.vod.mapper.CourseMapper">
 
-    <select id="selectCoursePublishVoById" resultType="com.atguigu.ggkt.vo.vod.CoursePublishVo">
+    <select id="selectCoursePublishVoById" resultType="com.zayn.ggkt.vo.vod.CoursePublishVo">
         SELECT c.id,
                c.title,
                c.cover,

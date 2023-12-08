@@ -1,6 +1,6 @@
 package com.zayn.glkt.order.service;
 
-import com.atguigu.ggkt.model.order.OrderDetail;
+import com.zayn.ggkt.model.order.OrderDetail;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 /**

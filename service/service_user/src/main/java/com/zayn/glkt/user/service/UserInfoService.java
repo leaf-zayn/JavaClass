@@ -1,6 +1,6 @@
 package com.zayn.glkt.user.service;
 
-import com.atguigu.ggkt.model.user.UserInfo;
+import com.zayn.ggkt.model.user.UserInfo;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 /**

@@ -1,7 +1,7 @@
 package com.zayn.glkt.vod.service.impl;
 
-import com.atguigu.ggkt.model.vod.VideoVisitor;
-import com.atguigu.ggkt.vo.vod.VideoVisitorCountVo;
+import com.zayn.ggkt.model.vod.VideoVisitor;
+import com.zayn.ggkt.vo.vod.VideoVisitorCountVo;
 import com.zayn.glkt.vod.mapper.VideoVisitorMapper;
 import com.zayn.glkt.vod.service.VideoVisitorService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;

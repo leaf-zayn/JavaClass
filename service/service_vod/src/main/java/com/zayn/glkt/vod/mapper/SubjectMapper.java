@@ -1,6 +1,6 @@
 package com.zayn.glkt.vod.mapper;
 
-import com.atguigu.ggkt.model.vod.Subject;
+import com.zayn.ggkt.model.vod.Subject;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import org.springframework.stereotype.Repository;
 

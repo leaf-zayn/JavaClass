@@ -1,6 +1,6 @@
 package com.zayn.glkt.vod.service.impl;
 
-import com.atguigu.ggkt.model.vod.Video;
+import com.zayn.ggkt.model.vod.Video;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.zayn.glkt.vod.mapper.VideoMapper;
 import com.zayn.glkt.vod.service.VideoService;

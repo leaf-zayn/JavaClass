@@ -1,7 +1,7 @@
 package com.zayn.glkt.vod.service;
 
-import com.atguigu.ggkt.model.vod.Chapter;
-import com.atguigu.ggkt.vo.vod.ChapterVo;
+import com.zayn.ggkt.model.vod.Chapter;
+import com.zayn.ggkt.vo.vod.ChapterVo;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 import java.util.List;

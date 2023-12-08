@@ -1,8 +1,8 @@
 package com.zayn.glkt.vod.controller;
 
 
-import com.atguigu.ggkt.model.vod.Chapter;
-import com.atguigu.ggkt.vo.vod.ChapterVo;
+import com.zayn.ggkt.model.vod.Chapter;
+import com.zayn.ggkt.vo.vod.ChapterVo;
 import com.zayn.ggkt.result.Result;
 import com.zayn.glkt.vod.service.ChapterService;
 import io.swagger.annotations.ApiOperation;

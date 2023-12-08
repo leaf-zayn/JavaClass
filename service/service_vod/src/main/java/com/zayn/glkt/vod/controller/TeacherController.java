@@ -1,18 +1,16 @@
 package com.zayn.glkt.vod.controller;
 
 
-import com.atguigu.ggkt.model.vod.Teacher;
-import com.atguigu.ggkt.vo.vod.TeacherQueryVo;
+import com.zayn.ggkt.model.vod.Teacher;
+import com.zayn.ggkt.vo.vod.TeacherQueryVo;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
-import com.zayn.ggkt.exception.GgktException;
 import com.zayn.ggkt.result.Result;
 import com.zayn.glkt.vod.service.TeacherService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
-import org.apache.ibatis.annotations.Delete;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.*;

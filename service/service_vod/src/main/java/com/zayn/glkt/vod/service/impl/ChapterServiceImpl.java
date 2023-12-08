@@ -1,9 +1,9 @@
 package com.zayn.glkt.vod.service.impl;
 
-import com.atguigu.ggkt.model.vod.Chapter;
-import com.atguigu.ggkt.model.vod.Video;
-import com.atguigu.ggkt.vo.vod.ChapterVo;
-import com.atguigu.ggkt.vo.vod.VideoVo;
+import com.zayn.ggkt.model.vod.Chapter;
+import com.zayn.ggkt.model.vod.Video;
+import com.zayn.ggkt.vo.vod.ChapterVo;
+import com.zayn.ggkt.vo.vod.VideoVo;
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.zayn.glkt.vod.mapper.ChapterMapper;

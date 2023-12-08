@@ -2,7 +2,7 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.zayn.glkt.vod.mapper.VideoVisitorMapper">
 
-    <select id="findCount" resultType="com.atguigu.ggkt.vo.vod.VideoVisitorCountVo">
+    <select id="findCount" resultType="com.zayn.ggkt.vo.vod.VideoVisitorCountVo">
         SELECT
         DATE(join_time) AS joinTime,
         COUNT(*) AS userCount

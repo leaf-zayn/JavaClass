@@ -2,8 +2,8 @@ package com.zayn.glkt.vod.listener;
 
 import com.alibaba.excel.context.AnalysisContext;
 import com.alibaba.excel.event.AnalysisEventListener;
-import com.atguigu.ggkt.model.vod.Subject;
-import com.atguigu.ggkt.vo.vod.SubjectEeVo;
+import com.zayn.ggkt.model.vod.Subject;
+import com.zayn.ggkt.vo.vod.SubjectEeVo;
 import com.zayn.glkt.vod.mapper.SubjectMapper;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;

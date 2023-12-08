@@ -1,8 +1,7 @@
 package com.zayn.glkt.vod.controller;
 
 
-import com.atguigu.ggkt.model.vod.Video;
-import com.baomidou.mybatisplus.extension.api.R;
+import com.zayn.ggkt.model.vod.Video;
 import com.zayn.ggkt.result.Result;
 import com.zayn.glkt.vod.service.VideoService;
 import io.swagger.annotations.ApiOperation;

@@ -1,16 +1,15 @@
 package com.zayn.glkt.activity.controller;
 
 
-import com.atguigu.ggkt.model.activity.CouponInfo;
-import com.atguigu.ggkt.model.activity.CouponUse;
-import com.atguigu.ggkt.vo.activity.CouponUseQueryVo;
+import com.zayn.ggkt.model.activity.CouponInfo;
+import com.zayn.ggkt.model.activity.CouponUse;
+import com.zayn.ggkt.vo.activity.CouponUseQueryVo;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.zayn.ggkt.result.Result;
 import com.zayn.glkt.activity.service.CouponInfoService;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
-import org.apache.ibatis.annotations.Delete;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

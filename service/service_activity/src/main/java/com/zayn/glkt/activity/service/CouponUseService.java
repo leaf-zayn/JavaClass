@@ -1,6 +1,6 @@
 package com.zayn.glkt.activity.service;
 
-import com.atguigu.ggkt.model.activity.CouponUse;
+import com.zayn.ggkt.model.activity.CouponUse;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 /**

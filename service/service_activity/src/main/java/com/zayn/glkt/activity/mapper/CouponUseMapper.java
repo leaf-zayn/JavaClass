@@ -1,6 +1,6 @@
 package com.zayn.glkt.activity.mapper;
 
-import com.atguigu.ggkt.model.activity.CouponUse;
+import com.zayn.ggkt.model.activity.CouponUse;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 /**

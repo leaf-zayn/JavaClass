@@ -1,9 +1,9 @@
 package com.zayn.glkt.activity.service.impl;
 
-import com.atguigu.ggkt.model.activity.CouponInfo;
-import com.atguigu.ggkt.model.activity.CouponUse;
-import com.atguigu.ggkt.model.user.UserInfo;
-import com.atguigu.ggkt.vo.activity.CouponUseQueryVo;
+import com.zayn.ggkt.model.activity.CouponInfo;
+import com.zayn.ggkt.model.activity.CouponUse;
+import com.zayn.ggkt.model.user.UserInfo;
+import com.zayn.ggkt.vo.activity.CouponUseQueryVo;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;

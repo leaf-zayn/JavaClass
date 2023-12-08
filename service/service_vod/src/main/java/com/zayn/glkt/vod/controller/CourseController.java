@@ -1,14 +1,13 @@
 package com.zayn.glkt.vod.controller;
 
 
-import com.atguigu.ggkt.model.vod.Course;
-import com.atguigu.ggkt.vo.vod.CourseFormVo;
-import com.atguigu.ggkt.vo.vod.CoursePublishVo;
-import com.atguigu.ggkt.vo.vod.CourseQueryVo;
+import com.zayn.ggkt.model.vod.Course;
+import com.zayn.ggkt.vo.vod.CourseFormVo;
+import com.zayn.ggkt.vo.vod.CoursePublishVo;
+import com.zayn.ggkt.vo.vod.CourseQueryVo;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.zayn.ggkt.result.Result;
 import com.zayn.glkt.vod.service.CourseService;
-import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;

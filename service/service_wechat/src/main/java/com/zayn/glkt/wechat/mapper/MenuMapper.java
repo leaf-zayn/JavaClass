@@ -1,6 +1,6 @@
 package com.zayn.glkt.wechat.mapper;
 
-import com.atguigu.ggkt.model.wechat.Menu;
+import com.zayn.ggkt.model.wechat.Menu;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 /**

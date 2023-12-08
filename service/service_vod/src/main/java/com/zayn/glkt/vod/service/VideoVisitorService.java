@@ -1,6 +1,6 @@
 package com.zayn.glkt.vod.service;
 
-import com.atguigu.ggkt.model.vod.VideoVisitor;
+import com.zayn.ggkt.model.vod.VideoVisitor;
 import com.baomidou.mybatisplus.extension.service.IService;
 import org.apache.ibatis.annotations.Param;
 

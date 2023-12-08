@@ -1,8 +1,8 @@
 package com.zayn.glkt.vod.service.impl;
 
 import com.alibaba.excel.EasyExcel;
-import com.atguigu.ggkt.model.vod.Subject;
-import com.atguigu.ggkt.vo.vod.SubjectEeVo;
+import com.zayn.ggkt.model.vod.Subject;
+import com.zayn.ggkt.vo.vod.SubjectEeVo;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.zayn.ggkt.exception.GgktException;
 import com.zayn.glkt.vod.listener.SubjectListener;

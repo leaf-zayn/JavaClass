@@ -1,0 +1,63 @@
+version: '3'
+services:
+  service_gateway:
+    container_name: service_gateway
+    build:
+      context: ./service_gateway
+      dockerfile: Dockerfile
+    ports:
+      - "8333:8333"
+    networks:
+      - mynetwork
+
+  service_activity:
+    container_name: service_activity
+    build:
+      context: ./service/service_activity
+      dockerfile: Dockerfile
+    ports:
+      - "8303:8303"
+    networks:
+      - mynetwork
+
+  service_order:
+    container_name: service_order
+    build:
+      context: ./service/service_order
+      dockerfile: Dockerfile
+    ports:
+      - "8302:8302"
+    networks:
+      - mynetwork
+
+  service_user:
+    container_name: service_user
+    build:
+      context: ./service/service_user
+      dockerfile: Dockerfile
+    ports:
+      - "8304:8304"
+    networks:
+      - mynetwork
+
+  service_vod:
+    container_name: service_vod
+    build:
+      context: ./service/service_vod
+      dockerfile: Dockerfile
+    ports:
+      - "8301:8301"
+    networks:
+      - mynetwork
+
+  service_wechat:
+    container_name: service_wechat
+    build:
+      context: ./service/service_wechat
+      dockerfile: Dockerfile
+    ports:
+      - "8305:8305"
+    networks:
+      - mynetwork
+networks:
+  mynetwork:

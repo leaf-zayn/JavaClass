@@ -1,7 +1,7 @@
 package com.zayn.glkt.user.controller;
 
 
-import com.atguigu.ggkt.model.user.UserInfo;
+import com.zayn.ggkt.model.user.UserInfo;
 import com.zayn.glkt.user.service.UserInfoService;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,6 +1,6 @@
 package com.zayn.glkt.vod.mapper;
 
-import com.atguigu.ggkt.model.vod.Chapter;
+import com.zayn.ggkt.model.vod.Chapter;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 /**

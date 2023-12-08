@@ -2,8 +2,8 @@ package com.zayn.glkt.wechat.service.impl;
 
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
-import com.atguigu.ggkt.model.wechat.Menu;
-import com.atguigu.ggkt.vo.wechat.MenuVo;
+import com.zayn.ggkt.model.wechat.Menu;
+import com.zayn.ggkt.vo.wechat.MenuVo;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.zayn.ggkt.exception.GgktException;
 import com.zayn.glkt.wechat.mapper.MenuMapper;

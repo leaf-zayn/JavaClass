@@ -1,6 +1,6 @@
 package com.zayn.glkt.user.mapper;
 
-import com.atguigu.ggkt.model.user.UserInfo;
+import com.zayn.ggkt.model.user.UserInfo;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 /**

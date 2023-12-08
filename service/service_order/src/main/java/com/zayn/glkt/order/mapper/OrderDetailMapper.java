@@ -1,6 +1,6 @@
 package com.zayn.glkt.order.mapper;
 
-import com.atguigu.ggkt.model.order.OrderDetail;
+import com.zayn.ggkt.model.order.OrderDetail;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 /**

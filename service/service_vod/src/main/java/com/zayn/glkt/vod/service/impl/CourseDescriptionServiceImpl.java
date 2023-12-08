@@ -1,6 +1,6 @@
 package com.zayn.glkt.vod.service.impl;
 
-import com.atguigu.ggkt.model.vod.CourseDescription;
+import com.zayn.ggkt.model.vod.CourseDescription;
 import com.zayn.glkt.vod.mapper.CourseDescriptionMapper;
 import com.zayn.glkt.vod.service.CourseDescriptionService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;

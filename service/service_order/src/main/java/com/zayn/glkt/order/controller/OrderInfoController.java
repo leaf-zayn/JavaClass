@@ -1,8 +1,8 @@
 package com.zayn.glkt.order.controller;
 
 
-import com.atguigu.ggkt.model.order.OrderInfo;
-import com.atguigu.ggkt.vo.order.OrderInfoQueryVo;
+import com.zayn.ggkt.model.order.OrderInfo;
+import com.zayn.ggkt.vo.order.OrderInfoQueryVo;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.zayn.ggkt.result.Result;
 import com.zayn.glkt.order.service.OrderInfoService;

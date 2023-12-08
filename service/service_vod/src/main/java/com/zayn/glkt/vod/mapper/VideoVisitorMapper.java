@@ -1,7 +1,7 @@
 package com.zayn.glkt.vod.mapper;
 
-import com.atguigu.ggkt.model.vod.VideoVisitor;
-import com.atguigu.ggkt.vo.vod.VideoVisitorCountVo;
+import com.zayn.ggkt.model.vod.VideoVisitor;
+import com.zayn.ggkt.vo.vod.VideoVisitorCountVo;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 import java.util.List;

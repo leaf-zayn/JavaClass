@@ -1,6 +1,6 @@
 package com.zayn.glkt.vod.service;
 
-import com.atguigu.ggkt.model.vod.Subject;
+import com.zayn.ggkt.model.vod.Subject;
 import com.baomidou.mybatisplus.extension.service.IService;
 import org.springframework.web.multipart.MultipartFile;
 
