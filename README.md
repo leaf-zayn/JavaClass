@@ -1,10 +1,10 @@
 # 服务器部署
 ## 安装Docker
 centos:
-sudo yum install -y yum-utils
-sudo yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
-sudo yum install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
-sudo systemctl start docker
+sudo yum install -y yum-utils</br>
+sudo yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo</br>
+sudo yum install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin</br>
+sudo systemctl start docker</br>
 ```检测是否安装成功```
 sudo docker run hello-world(检测是否安装成功)
 
