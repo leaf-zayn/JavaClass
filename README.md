@@ -6,7 +6,7 @@ sudo yum-config-manager --add-repo https://download.docker.com/linux/centos/dock
 sudo yum install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin</br>
 sudo systemctl start docker</br>
 ```检测是否安装成功```
-sudo docker run hello-world(检测是否安装成功)
+</br>sudo docker run hello-world
 
 ## 安装maven
 sudo yum install maven
